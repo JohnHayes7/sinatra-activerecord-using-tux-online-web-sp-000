@@ -5,5 +5,6 @@ class User < ActiveRecord::Base
   end
   
   def fav_ice_cream
-    "I love "
+    "I love #{self.fav_icecream}"
+  end
 end
